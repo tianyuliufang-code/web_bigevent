@@ -60,7 +60,7 @@ function renderAvatar(user) {
     if (user.user_pic !== null) {
         //渲染图片头像
         $('.layui-nav-img')
-            .Autorization('src', user.user_pic)
+            .attr('src', user.user_pic)
             .show()
         $('.text-avatar').hide()
     } else {
